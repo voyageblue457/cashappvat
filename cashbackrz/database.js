@@ -1,8 +1,7 @@
 import mongoose  from 'mongoose'
 
 
-const mongouri ="mongodb://cashapp:yEphxwEYS7ScREAw@ac-vd0hedy-shard-00-00.neq5upx.mongodb.net:27017,ac-vd0hedy-shard-00-01.neq5upx.mongodb.net:27017,ac-vd0hedy-shard-00-02.neq5upx.mongodb.net:27017/cashapp?ssl=true&replicaSet=atlas-nibxzo-shard-0&authSource=admin&appName=Cluster0"
- // const mongouri="mongodb://razu009:razu008@31.97.181.120:27017/cashapp?replicaSet=rs0&authSource=cashapp"
+const mongouri ="mongodb://voyageblue457:BJhTnHTtJPCNqZm4@ac-etoxoda-shard-00-00.pytsqsl.mongodb.net:27017,ac-etoxoda-shard-00-01.pytsqsl.mongodb.net:27017,ac-etoxoda-shard-00-02.pytsqsl.mongodb.net:27017/cashappvat?ssl=true&replicaSet=atlas-12avc8-shard-0&authSource=admin&appName=Cluster0"
 const connectDB = () => {
 
     mongoose.connect(mongouri
